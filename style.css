@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #aaa;
+}
+td {
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
